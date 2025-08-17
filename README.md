@@ -23,7 +23,7 @@ User-friendly interface – Clean, modern layout for quick exploration.
 
 Clone the repository
 
-git clone https://github.com/yourusername/stock_dashboard.git
+git clone https://github.com/rayeesa163/stock_predictor.git
 cd stock_dashboard
 
 
