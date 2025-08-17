@@ -1,35 +1,33 @@
-📈 Stock Dashboard
+📊 Stock Dashboard
 
-A sleek and interactive Stock Market Dashboard that allows users to view real-time stock prices, historical trends, and company insights. Designed for both beginners and experienced traders, this dashboard makes stock analysis simple and visually appealing.
+A clean and interactive Stock Dashboard for analyzing historical stock data. Built for data scientists and analysts, it allows users to visualize trends, trading volumes, and export stock data as a CSV file for further analysis.
 
 🚀 Features
 
-Real-time stock updates – Get the latest prices for your favorite companies.
+Historical stock data – Fetch up to 1 year of data for any stock symbol.
 
-Company insights – Symbol-to-company name mapping for easy understanding (e.g., AAPL → Apple).
+Interactive charts – Open & Close prices and trading volume visualizations.
 
-Historical trends – View stock price trends over time.
+Company mapping – Symbol → company name for easy identification.
 
-Interactive charts – Clean and attractive visualization for better analysis.
+CSV export – Download the latest stock data for analysis.
 
-PDF download option – Export stock reports directly from the dashboard.
-
-User-friendly interface – White background with modern design for clear readability.
+User-friendly interface – Clean, modern layout for quick exploration.
 
 🖼️ Screenshots
 
+(Add your screenshot here)
 
-Example view of Stock Dashboard with charts and company insights.
 
 ⚡ Installation
 
 Clone the repository
 
-git clone https://github.com/rayeesa163/stock_predictor.git
+git clone https://github.com/yourusername/stock_dashboard.git
 cd stock_dashboard
 
 
-Create a virtual environment (optional but recommended)
+Create a virtual environment (optional)
 
 python -m venv venv
 source venv/bin/activate  # Linux/macOS
@@ -40,40 +38,44 @@ Install dependencies
 
 pip install -r requirements.txt
 
-
-Make sure you have reportlab installed for PDF export:
-
-pip install reportlab
-
 🏃 How to Run
+
 python -m streamlit run stock_dashboard.py
 
 
 
-The dashboard will open locally in your browser.
+Enter a stock symbol (e.g., AAPL).
 
-Choose a stock symbol to see live updates, historical trends, and company insights.
+View historical Open/Close price chart and trading volume chart.
 
-Click Download PDF to export a report.
+Click Download CSV to export stock data.
 
 🛠️ Tech Stack
 
 Python – Core programming language
 
-Pandas & NumPy – Data handling & analysis
+Pandas & NumPy – Data manipulation and analysis
 
-Matplotlib / Plotly – Interactive charts
+yfinance – Fetch historical stock data
 
-ReportLab – PDF report generation
+Plotly – Interactive charts
 
-Tkinter / Streamlit – User interface
+Streamlit – Dashboard UI and CSV download
 
 💡 Future Improvements
 
-Add multi-stock comparison charts
+Add multi-stock comparison.
 
-Integrate real-time news feeds for selected companies
+Include technical indicators like SMA, EMA, RSI.
 
-Enable alerts and notifications for stock price changes
+Allow custom date range selection.
 
-Enhance mobile responsiveness
+Enhance chart interactivity with hover details.
+
+🤝 Contribution
+
+Contributions are welcome! Submit issues, fork the repo, or create pull requests to improve features, design, or performance.
+
+📄 License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
