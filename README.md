@@ -25,7 +25,7 @@ Example view of Stock Dashboard with charts and company insights.
 
 Clone the repository
 
-git clone https://github.com/yourusername/stock_dashboard.git
+git clone https://github.com/rayeesa163/stock_predictor.git
 cd stock_dashboard
 
 
