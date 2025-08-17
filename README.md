@@ -14,9 +14,9 @@ CSV export – Download the latest stock data for analysis.
 
 User-friendly interface – Clean, modern layout for quick exploration.
 
-🖼️ Screenshots
+🖼️ Demo Vedio
 
-(Add your screenshot here)
+https://www.loom.com/share/1601230c418646dd93ed1e07adfc6d6d
 
 
 ⚡ Installation
